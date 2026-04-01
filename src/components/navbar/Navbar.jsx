@@ -5,9 +5,9 @@ import mainlogo from "../../assets/logo.png"
 
 const Navbar = () => {
   return (
-    <nav className='mt-[22px]'>
+    <nav className='mt-[22px] absolute top-0 left-0 w-full'>
     <div className="container">
-        <div className="main_div flex justify-between items-center bg-amber-200">
+        <div className="main_div flex justify-between items-center ">
             <div className="logo">
                 <Link to={"/"}></Link>    <img src={mainlogo} alt="main_logo" />        </div>
                 
