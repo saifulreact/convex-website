@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="container">
         <div className="banner_row flex ">
           <div className="banner_text">
-            <h1 className='font-semibold text-[64px] text-[#FBFBFB] font-robotosharif w-[608px]'>Ready to take your 
+            <h1 className='font-semibold text-[24px] lg:text-[64px] text-[#FBFBFB] font-robotosharif w-[608px]'>Ready to take your 
               <span className='text-[#64CCC5] block'>Business Growth </span>
               to the next level?
               </h1>

@@ -5,7 +5,7 @@ import mainlogo from "../../assets/logo.png"
 
 const Navbar = () => {
   return (
-    <nav className='mt-[22px] absolute top-0 left-0 w-full'>
+    <nav className='mt-[22px] absolute top-0 left-0 w-full hidden lg:block '>
     <div className="container">
         <div className="main_div flex justify-between items-center ">
             <div className="logo">
