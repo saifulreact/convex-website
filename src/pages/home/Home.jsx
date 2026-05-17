@@ -1,7 +1,4 @@
-import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+import React from 'react'
 import Banner from '../../components/Banner'
 import Servicecomponents from '../../components/Servicecomponents'
 import Misson from '../../components/Misson'
@@ -10,43 +7,20 @@ import Recent from '../../components/Recent'
 import Slider from '../../components/Slider'
 
 const Home = () => {
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      once: true,
-    });
-  }, []);
-
+  <script>
+  AOS.init();
+</script>
   return (
     <>
-
-      <div data-aos="fade-right">
-        <Banner />
-      </div>
-
-      <div data-aos="zoom-in">
-        <Servicecomponents />
-      </div>
-
-      <div data-aos="fade-left">
-        <Misson />
-      </div>
-
-      <div data-aos="flip-up">
-        <Process />
-      </div>
-
-      <div data-aos="fade-up">
-        <Recent />
-      </div>
-
-      <div data-aos="zoom-out">
-        <Slider />
-      </div>
-
+      <Banner data-aos="fade-right"/>
+      <Servicecomponents/>
+      <Misson/>
+      <Process/>
+      <Recent/>
+      <Slider/>
+      
     </>
   )
 }
 
-export default Home 
+export default Home
