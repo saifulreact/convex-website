@@ -7,13 +7,13 @@ const SinglsCard = () => {
     <>
             <div className="container">
                 <div>
-        <div className='w-full  lg:w-[442px] lg:h-[368px] rounded-[20px] bg-[#F4F4F4] hover:bg-[#0c0c0c] duration-300 hover:text-[#F4F4F4] px-11 py-[45px]'>
+        <div className='w-full group  lg:w-[442px] lg:h-[368px] rounded-[20px] bg-[#F4F4F4] hover:bg-[#0c0c0c] duration-300 hover:text-[#F4F4F4] px-11 py-[45px]'>
             <div >
-               <span className='px-[23px] py-[24px] bg-[#0C0C0C] inline-block rounded-[50%]'> <LuPenTool className='text-[33px] text-[#f4f4f4]  '/></span>
+               <span className='px-[23px] py-[24px]  bg-[#0C0C0C] group-hover:bg-white group-hover:duration-300 inline-block rounded-[50%]'> <LuPenTool className='text-[33px] text-[#f4f4f4]  '/></span>
 
             </div>
-            <h5 className='font-robotosharif font-medium text-[25px] text-[#0C0C0C] pt-[62px] pb-[15px]'>Content Marketing </h5>
-            <p className='font-dmsans font-normal text-[18px] text-[#0C0C0C] W-[332px]'>Our team creates engaging and shareable content that resonates with your audience, drives organic traffic</p>
+            <h5 className='font-robotosharif font-medium text-[25px]   group-hover:text-[#F4F4F4]                   text-[#0C0C0C] pt-[62px] pb-[15px]'>Content Marketing </h5>
+            <p className='font-dmsans font-normal text-[18px] group-hover:text-[#F4F4F4] text-[#0C0C0C] W-[332px]'>Our team creates engaging and shareable content that resonates with your audience, drives organic traffic</p>
 
         </div>
     </div>  
