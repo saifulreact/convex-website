@@ -1,6 +1,12 @@
 import React from 'react'
 import "./footer.css"
 import mainlogo from "../../assets/logo.png"
+import { SlSocialFacebook } from "react-icons/sl";
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+
+
+
 
 
 const Footer = () => {
@@ -24,17 +30,19 @@ const Footer = () => {
                </div>
                <div className="footer_rowTwo">
                 <ul className='gap-4'>
-                    <label className='font-robotosharif font-semibold text-[#FFFFFF] text-[20px]pb-6 flex'>Pages </label>
-                    <li><a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Home</a> </li>
-                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">About</a></li>
-                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Portfolio</a></li>
-                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Portfolio Single</a></li>
+                    <label className='font-robotosharif font-semibold text-[#FFFFFF] text-[20px]pb-6 flex '>Utility Pages  </label>
+                    <li><a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Style Guide </a> </li>
+                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Instruction</a></li>
+                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">License</a></li>
+                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Changelog</a></li>
+                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Error  404 </a></li>
+                    <li> <a className='text-[#F4F4F4] font-dmsans font-normal text-[16px] ' href="#">Password Protected </a></li>
 
                 </ul>
                </div>
-               <div>
+               <div >
                 <button className='font-robotosharif font-semibold text-[20px]  text-[#FFFFFF]'>Subscribe</button>
-                <div className='w-[343px] h-[67px] bg-[#FBFBFB] flex justify-between items-center rounded-[20px] pl-[23px] pr-[10px] mt-[19px]'>
+                <div className='w-[433px] h-[67px] bg-[#FBFBFB] flex justify-between items-center rounded-[20px] pl-[23px] pr-[10px] mt-[19px]'>
                   <input placeholder='Enter your email here' className='outline-0 border-0 placeholder:text-[#0C0C0C] placeholder:text-[18px] placeholder:font-normal font-normal text-[18px] font-dmsans  ' type="Enter your email here" />
                   <button className='font-normal text-[18px] font-dmsans text-[#FBFBFB] py-[12px] px-[15px] rounded-[20px] bg-[#0C0C0C]'>Subscribe</button>
 
@@ -63,10 +71,12 @@ const Footer = () => {
               </div>
               
             </div>
-            <div className="social flex gap-[29px] pt-[29px]">
-              <span className='text-white'>fa</span>
-              <span className='text-white'>fa</span>
-              <span className='text-white'>fa</span>
+            <div className="social flex gap-[29px] mt-[34px]">
+              <span className='text-black text-[22px] w-[50px] h-[50px] rounded-full flex justify-center items-center bg-white'><SlSocialFacebook/></span>
+              <span className='text-black text-[22px] w-[50px] h-[50px] rounded-full flex justify-center items-center bg-white'><FaInstagram/></span>
+              <span className='text-black text-[22px] w-[50px] h-[50px] rounded-full flex justify-center items-center bg-white'><CiLinkedin/></span>
+         
+             
             </div>
 
             </div>
