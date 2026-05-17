@@ -19,15 +19,15 @@ const Banner = () => {
       <div className="container">
         <div className="banner_row flex ">
           <div className="banner_text">
-            <h1 className='font-semibold text-[24px] lg:text-[64px] text-[#FBFBFB] font-robotosharif w-[608px]'>Ready to take your 
+            <h1 data-aos="fade-up" className='font-semibold text-[24px] lg:text-[64px] text-[#FBFBFB] font-robotosharif w-[608px]'>Ready to take your 
               <span className='text-[#64CCC5] block'>Business Growth </span>
               to the next level?
               </h1>
-              <p className='font-dmsans font-normal text-[18px] text-[#FBFBFB] w-[557px] tracking-[3%] mt-[24px] mb-[32px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut massa libero egestas malesuada viverra gravida libero cursus nulla leo pulvinar.</p>
+              <p data-aos="fade-up" className='font-dmsans font-normal text-[18px] text-[#FBFBFB] w-[557px] tracking-[3%] mt-[24px] mb-[32px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut massa libero egestas malesuada viverra gravida libero cursus nulla leo pulvinar.</p>
               <BannerCommonbtn/>
-              <p className='font-robotosharif font-semibold text-[20px] text-[#64CCC5] mb-[5px] mt-[181px]' >Trusted by Leading Brands</p>
+              <p data-aos="fade-up" className='font-robotosharif font-semibold text-[20px] text-[#64CCC5] mb-[5px] mt-[181px]' >Trusted by Leading Brands</p>
 
-              <div className='flex gap-[10px] '>
+              <div data-aos="fade-up" className='flex gap-[10px] '>
                 <img src={one} alt="" />
                 <img src={two} alt="" />
                 <img src={three} alt="" />
